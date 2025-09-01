@@ -116,7 +116,7 @@ exports.handler = async (event, context) => {
 
     let message;
     if (cashAmount >= 9) {
-      message = `You have $${cashAmount} in Claire Cash!<br><br>To redeem your Claire Cash, check out my <a href="https://clairepaniccia.com/allthethings/" target="_blank">All The Things page</a> and then email me at hello@clairepaniccia.com to request to cash in your Claire Cash!`;
+      message = `You have $${cashAmount} in Claire Cash!<br><br>To redeem your Claire Cash, check out my <a href="https://clairepaniccia.com/allthethings/" target="_blank">All The Things page</a> and then <a href="https://airtable.com/appCV7spRikmv7VOc/pagbz99fPGhQwzwkS/form" target="_blank">fill out this form</a> to request to cash in your Claire Cash!`;
     } else {
       message = `You have $${cashAmount} in Claire Cash`;
     }
